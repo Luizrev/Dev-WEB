@@ -5,15 +5,14 @@
 //import { Header,Body,Footer } from './Components/03Hierarquia/04Multiplo';
 // import * as Site from './Components/03Hierarquia/04Multiplo'
 // import {Supermercado,Legume,Bebida} from './Components/05Children'
-import FuncaoA from "./Components/06Contexto/FuncaoA";
-import FuncaoB from "./Components/06Contexto/FuncaoB";
-import FuncaoC from "./Components/06Contexto/FuncaoC";
+// import FuncaoA from "./Components/06Contexto/FuncaoA";
+// import FuncaoB from "./Components/06Contexto/FuncaoB";
+// import FuncaoC from "./Components/06Contexto/FuncaoC";
+import Avo from "./Components/atividade02/questao2/Avo";
 function App() {
   return (
-    <div>
-      {/* <FuncaoB cor = "green"/>
-      <FuncaoC /> */}
-      <FuncaoA />
+    <div className="App">
+      <Avo />
     </div>
   );
 }
