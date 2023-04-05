@@ -8,11 +8,20 @@
 // import FuncaoA from "./Components/06Contexto/FuncaoA";
 // import FuncaoB from "./Components/06Contexto/FuncaoB";
 // import FuncaoC from "./Components/06Contexto/FuncaoC";
-import Avo from "./Components/atividade02/questao2/Avo";
+//import Avo from "./Components/atividade02/questao2/Avo";
+//import {SaveData,LoadData} from "./Components/07Storage/MyStorage";
+//import Pai from "./Components/08PaiFilho/Pai";
+import Contador from "./Components/09Estados/Contador";
+
 function App() {
   return (
     <div className="App">
-      <Avo />
+      {/* {SaveData()} */}
+      {/* {LoadData()} */}
+      {/* <Pai></Pai> */}
+      <Contador />
+
+
     </div>
   );
 }
