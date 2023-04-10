@@ -11,7 +11,8 @@
 //import Avo from "./Components/atividade02/questao2/Avo";
 //import {SaveData,LoadData} from "./Components/07Storage/MyStorage";
 //import Pai from "./Components/08PaiFilho/Pai";
-import Contador from "./Components/09Estados/Contador";
+//import Contador from "./Components/09Estados/Contador";
+import ContarCidade from "./Components/Atividade03/ContarCidade";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       {/* {SaveData()} */}
       {/* {LoadData()} */}
       {/* <Pai></Pai> */}
-      <Contador />
+      <ContarCidade />
 
 
     </div>
