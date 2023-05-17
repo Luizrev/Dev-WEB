@@ -13,7 +13,11 @@
 //import Pai from "./Components/08PaiFilho/Pai";
 //import Contador from "./Components/09Estados/Contador";
 //import ContarCidade from "./Components/Atividade03/ContarCidade";
-import PokemonAxios from "./Components/Axios/PokemonAxios";
+//import PokemonAxios from "./Components/Axios/PokemonAxios";
+
+//import Questao01X from "./Components/Prova01/Questao01";
+//import Questao02 from "./Components/Prova01/Questao02";
+import Questao03 from "./Components/Prova01/Questao03";
 
 function App() {
   return (
@@ -22,7 +26,10 @@ function App() {
       {/* {LoadData()} */}
       {/* <Pai></Pai> */}
       {/* <ContarCidade /> */}
-      <PokemonAxios />
+      {/* <PokemonAxios /> */}
+      {/* <Questao01X /> */}
+      {/* <Questao02 /> */}
+      <Questao03 />
 
 
     </div>
